@@ -1,0 +1,92 @@
+body {
+    background-color: #22222217;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Title */
+.header {
+    top: 0;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+/* Navbar Title Hover */
+.header:hover {
+    color: rgb(111, 0, 255);
+    transition: color 0.3s ease;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: center;
+    background-color: #333;
+    color: white;
+    margin-top: 100px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Navigation Bar Links */
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    transform: scale(1);
+    transition: transform 0.3s ease, color 0.3s ease; /* Add color transition */
+}
+
+/* Navigation Bar Links Hover */
+.navbar a:hover {
+    color: rgb(111, 0, 255);
+    transform: scale(1.1);
+}
+
+/* Content */
+.content {
+    margin-top: 100px;
+    position: absolute;
+    left: 35%;
+    padding: 20px;
+}
+
+/* Search Bar */
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Search Bar Input */
+.searchbar input {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Search Bar Button */
+.searchbar button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(111, 0, 255);
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
